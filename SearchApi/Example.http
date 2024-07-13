@@ -1,0 +1,11 @@
+@SearchApi_HostAddress = http://localhost:6000
+
+### 
+POST {{SearchApi_HostAddress}}/api/v1/search
+Content-Type: application/json
+
+{
+  "Origin": "Moscow",
+  "Destination": "Sochi",
+  "OriginDateTime": "2024-02-14"
+}
